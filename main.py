@@ -6,13 +6,10 @@ import numpy as np
 
 from constants import *
 
-
 #Pygame SetUp
 pygame.init()
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Tic Tac toe AI")
-
-
 
 class AI:
 
